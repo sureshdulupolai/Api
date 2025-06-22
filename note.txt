@@ -1,0 +1,4 @@
+install where the txt file present
+cd:// out side env
+
+-- pip install -r requirements.txt

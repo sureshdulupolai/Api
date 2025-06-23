@@ -2,3 +2,24 @@ install where the txt file present
 cd:// out side env
 
 -- pip install -r requirements.txt
+
+// project ke andar karna hai
+-- pip install djangorestframework
+
+
+// run kar dena env aur project ke bhar jaha pe txt file hai
+-- pip freeze > requirements.txt
+
+
+install in setting "INSTALLED_APPS"
+-- rest_framework
+
+
+// add in setting.py
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ]
+}
